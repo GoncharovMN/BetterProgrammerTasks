@@ -78,13 +78,13 @@ public class BetterProgrammerTaskTests {
 		assert getLargestRootToLeafSum(node21) == 5;
 	}
 	
-	public static void Task4_getProbability(){
-		assert getProbability(1, 1) == 1/6;
-		assert getProbability(2, 1) == 13/36;
-		assert getProbability(2, 2) == 1/36;
+	public static void Task4_getProbability(){ 
+		assert getProbability(1, 1) == 1d/6;
+		assert getProbability(2, 1) == 14d/36;
+		assert getProbability(2, 2) == 1d/36;
 		
-		assert getProbability(20, 21) == 0;
-		assert getProbability(-1, 1) == 0;
-		assert getProbability(1, -1) == 0;
+		assert getProbability(20, 21) == 0d;
+		assert getProbability(-1, 1) == 0d;
+		assert getProbability(1, -1) == 0d;
 	}
 }
